@@ -1,7 +1,7 @@
 const script = [
   {speaker:'나레이션',bg:'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1400&q=60',char:'',text:'겨울 시발 시작하지도 않았지만 조온나게 춥다'},
-  {speaker:'주인공',char:'images/IMG_1843.jpg',text:'(오늘부터 새 학년, 심장이 자꾸 빨라져.)'},
-  {speaker:'건우',char:'images/IMG_1842.jpg',text:'"안녕! 너도 2학년이야? 나 유나야, 잘 부탁해!"'},
+  {speaker:'주인공',char:'https://drive.google.com/file/d/1e6mTkl1idJWWP1PEgc0AtRBSkFsejqTq/view?usp=drive_link',text:'(오늘부터 새 학년, 심장이 자꾸 빨라져.)'},
+  {speaker:'건우',char:'https://drive.google.com/file/d/1BW6l1y_aKD-qmcM3k2ImXJONTCDgLh7g/view?usp=drive_link',text:'"안녕! 너도 2학년이야? 나 유나야, 잘 부탁해!"'},
   {speaker:'주인공',text:'"응, 잘 부탁해...!" (웃음이 서툴게 튀어나온다)'},
   {speaker:'나레이션',text:'첫 만남은 늘 어색하지만, 유나는 다정했고 웃음은 쉽게 풀렸다.'},
   {speaker:'건우',text:'"오늘 점심 같이 먹을래? 우리 반 애들이랑 자리 있어."',choices:[
@@ -139,5 +139,6 @@ function estimateTime() {
 estimateTime();
 
 renderNode(script[0]);
+
 
 
