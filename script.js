@@ -1,10 +1,10 @@
 const script = [
-  {speaker:'나레이션',bg:'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1400&q=60',char:'',text:'봄이 막 기지개를 켜는 아침, 교정에는 아직 이슬이 남아 있다.'},
+  {speaker:'나레이션',bg:'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1400&q=60',char:'',text:'겨울 시발 시작하지도 않았지만 조온나게 춥다'},
   {speaker:'주인공',char:'IMG_1843.jpeg',text:'(오늘부터 새 학년, 심장이 자꾸 빨라져.)'},
-  {speaker:'유나',char:'IMG_1842.jpeg',text:'"안녕! 너도 2학년이야? 나 유나야, 잘 부탁해!"'},
+  {speaker:'건우',char:'/images/IMG_1842.jpeg',text:'"안녕! 너도 2학년이야? 나 유나야, 잘 부탁해!"'},
   {speaker:'주인공',text:'"응, 잘 부탁해...!" (웃음이 서툴게 튀어나온다)'},
   {speaker:'나레이션',text:'첫 만남은 늘 어색하지만, 유나는 다정했고 웃음은 쉽게 풀렸다.'},
-  {speaker:'유나',text:'"오늘 점심 같이 먹을래? 우리 반 애들이랑 자리 있어."',choices:[
+  {speaker:'건우',text:'"오늘 점심 같이 먹을래? 우리 반 애들이랑 자리 있어."',choices:[
     {text:'같이 가자',goto:'lunch-group'},
     {text:'혼자 있고 싶다고 한다',goto:'decline-lunch'}
   ]},
@@ -137,4 +137,5 @@ function estimateTime() {
 }
 
 estimateTime();
+
 renderNode(script[0]);
